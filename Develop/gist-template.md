@@ -6,7 +6,9 @@ In this tutorial we will be going over a short demonstration and explanation of 
 
 Regex allows you to search a string of text for certain information that you want based on the regex that you choose.  
 An example of this is:
-`/^#?([a-f0-9]{6}|[a-f0-9]{3})$/`
+```
+/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+```
 This is a regular expression used to verify the given string is in the proper format for a 3/6 digit hex code.  
 We will go over all of the components used for this below.
 
