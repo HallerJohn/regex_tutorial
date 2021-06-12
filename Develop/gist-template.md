@@ -53,7 +53,8 @@ The or operator can be used to check for one of several different options:
 ### Grouping and Capturing
 In order to group certain pieces of a regex you need to include them in '()':
 ```
-(abc)? will check for one or zero "abc" strings. Note that it is checking for all three letters and not just the one before ?.
+(abc)? will check for one or zero "abc" strings.  
+Note that it is checking for all three letters and not just the one before ?.
 ```
 
 ### Bracket Expressions
