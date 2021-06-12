@@ -22,7 +22,7 @@ We will go over all of the components used for this below.
 
 ### Anchors
 The ^ anchor is used to check the beginning of a string:
-`^# will check for the character "#" at the start of a string.`
+```^# will check for the character "#" at the start of a string.```
 
 the $ anchor is used to check the end of a string:
 `j$ will check if the given string ends with a 'j'.`
