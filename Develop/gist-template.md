@@ -22,29 +22,43 @@ We will go over all of the components used for this below.
 
 ### Anchors
 The ^ anchor is used to check the beginning of a string:
-```^# will check for the character "#" at the start of a string.```
+```
+^# will check for the character "#" at the start of a string.
+```
 
 the $ anchor is used to check the end of a string:
-`j$ will check if the given string ends with a 'j'.`
+```
+j$ will check if the given string ends with a 'j'.
+```
 
 ### Quantifiers
 The ? quantifier will check for exactly one or zero instances of the character/string:
-`#? will check to see if there is either one or zero '#' in the string.`
+```
+#? will check to see if there is either one or zero '#' in the string.
+```
 
 The {} quantifier will check for however many instances of a character/string as the number inside the squigly brackets:
-`#{5} will check to see if there are five instances of the '#' character.`
+```
+#{5} will check to see if there are five instances of the '#' character.
+```
 
 ### OR Operator
 The or operator can be used to check for one of several different options:
-`(a|b) will check for either 'a' or 'b' in the given string.`
+```
+(a|b) will check for either 'a' or 'b' in the given string.
+```
 
 ### Grouping and Capturing
 In order to group certain pieces of a regex you need to include them in '()':
-`(abc)? will check for one or zero "abc" strings. Note that it is checking for all three letters and not just the one before ?.`
+```
+(abc)? will check for one or zero "abc" strings. Note that it is checking for all three letters and not just the one before ?.
+```
 
 ### Bracket Expressions
 Bracket expressions are used to match one of the characters on the inside of the bracket:
-`[a-f0-9]? will check for one or zero instances of any characters between a-f or 0-9.`
+```
+[a-f0-9]? will check for one or zero instances of any characters between a-f or 0-9.
+```
 
 ## Author
 
